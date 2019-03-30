@@ -1,0 +1,174 @@
+html,
+body {
+  /* can be treated like a fallback */
+  /*background-color: #4e4e4f;*/
+
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: center;
+}
+body {
+  color: white;
+}
+html {
+  background-image: url("grey-repeating-background-8.jpg");
+}
+.startform {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+  display: block;
+}
+.pollform {
+  width: 50%;
+  display: none;
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,
+h3,
+p {
+  text-align: center;
+  margin: 5px;
+  padding: 0px;
+}
+.centered {
+  text-align: center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+tr {
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  margin: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+fieldset {
+  background-color: #578adb;
+}
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+#opp1_votes {
+  width: 300px;
+  height: 40px;
+  border: solid blue 3px;
+  background-color: blue;
+  margin: 10px;
+}
+
+#opp2_votes {
+  width: 300px;
+  height: 40px;
+  border: solid red 3px;
+  background-color: red;
+  margin: 10px;
+}
+
+#opp3_votes {
+  width: 300px;
+  height: 40px;
+  border: solid pink 3px;
+  background-color: pink;
+  margin: 10px;
+  display: none;
+}
+#opp4_votes {
+  width: 300px;
+  height: 40px;
+  border: solid green 3px;
+  background-color: green;
+  margin: 10px;
+  display: none;
+}
+#results {
+  display: none;
+}
+
+a:link {
+  color: #19b4fc;
+}
+a:visited {
+  color: white;
+}
+
+label {
+  margin: 5px;
+}
+
+#question_field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+p .answers {
+  text-align: right;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+#figure1,
+#figure2 {
+  margin-top: 3px;
+  display: inline;
+  position: absolute;
+}
+#option_3,
+#option_4 {
+  display: none;
+}
+#opp3_ans,
+#opp4_ans {
+  display: none;
+}
+
+.button {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font: bold-italic;
+  box-shadow: 0 3px #999;
+  border-radius: 15px;
+}
+
+.button:active {
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+#opp3_radio,
+#opp4_radio {
+  display: none;
+}
+.radio3,
+.radio4 {
+  display: none;
+}
